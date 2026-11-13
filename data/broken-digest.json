@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "tables": {
+    "components": {
+      "file": "normal-components.jsonl",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "bytes": 36,
+      "rows": 3,
+      "fields": [
+        "id"
+      ]
+    },
+    "paths": {
+      "file": "normal-paths.jsonl",
+      "sha256": "db538598bc8d7bf40724a3876c021222836d8a60efc7db90f8e7f64e18e0d71d",
+      "bytes": 154,
+      "rows": 3,
+      "fields": [
+        "id",
+        "version",
+        "components"
+      ]
+    },
+    "probes": {
+      "file": "normal-probes.jsonl",
+      "sha256": "0d4eb1bfbe46ba59e99ac7069228fa836bd9aef86915429c393c72f3ae70ab26",
+      "bytes": 330,
+      "rows": 3,
+      "fields": [
+        "id",
+        "source",
+        "window",
+        "path",
+        "success",
+        "latency_ms",
+        "timeout_ms"
+      ]
+    },
+    "healthy": {
+      "file": "normal-healthy.jsonl",
+      "sha256": "488ca8fff073adb992ac4d418444a2d50d452aff7a22fbdd579e0ec17fc9b2fe",
+      "bytes": 45,
+      "rows": 1,
+      "fields": [
+        "id",
+        "window",
+        "confirmed_at"
+      ]
+    }
+  }
+}

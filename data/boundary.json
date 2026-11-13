@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "tables": {
+    "components": {
+      "file": "boundary-components.jsonl",
+      "sha256": "9bb86d5e23bd0b64cddecc78ab35d0a6975365ac4341053fefad133df23f8194",
+      "bytes": 36,
+      "rows": 3,
+      "fields": [
+        "id"
+      ]
+    },
+    "paths": {
+      "file": "boundary-paths.jsonl",
+      "sha256": "895ac3ff0131dcefd0ff0843c1ffc0e457408e073fdbff1d4ed5c912a539cec9",
+      "bytes": 154,
+      "rows": 3,
+      "fields": [
+        "id",
+        "version",
+        "components"
+      ]
+    },
+    "probes": {
+      "file": "boundary-probes.jsonl",
+      "sha256": "0d4eb1bfbe46ba59e99ac7069228fa836bd9aef86915429c393c72f3ae70ab26",
+      "bytes": 330,
+      "rows": 3,
+      "fields": [
+        "id",
+        "source",
+        "window",
+        "path",
+        "success",
+        "latency_ms",
+        "timeout_ms"
+      ]
+    },
+    "healthy": {
+      "file": "boundary-healthy.jsonl",
+      "sha256": "488ca8fff073adb992ac4d418444a2d50d452aff7a22fbdd579e0ec17fc9b2fe",
+      "bytes": 45,
+      "rows": 1,
+      "fields": [
+        "id",
+        "window",
+        "confirmed_at"
+      ]
+    }
+  }
+}
